@@ -1,0 +1,50 @@
+/*CSS DOCUMENT*/
+body {
+background:rgb(219, 233, 255);
+font-family:sans-serif;
+}
+
+h1 {
+    margin:auto;
+    color:aliceblue;
+    padding:0.5em 0.5em 0.5em 0.5em;
+    width:8em;
+    background:rgb(48, 47, 158);
+    text-align:center;
+    font-family:serif;
+}
+
+h2 {
+    margin:auto;
+    color:aliceblue;
+    padding:0.25em 0.25em 0.25em 0.25em;
+    width:8em;
+    background:rgb(48, 47, 158);
+    text-align:center;
+}
+
+h3{
+    margin:4em 0 0 2em;
+    color:rgb(48, 47, 158);
+    border-bottom:dotted;
+    border-bottom-color:rgb(48, 47, 158);
+}
+
+h3.appetizers{
+    margin:2em 0 0 2em;
+}
+
+ul{
+    list-style-type:none;
+    margin:0 0 0 1em;
+}
+
+ul.dessert{
+    margin:0 0 3em 1em;
+}
+
+li{
+    color:rgb(9, 5, 48);
+    font-weight:lighter;
+    margin:0 0 0 1em
+}
