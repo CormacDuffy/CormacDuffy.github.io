@@ -1,0 +1,65 @@
+/*CSS DOCUMENT*/
+body{
+    background:rgb(250, 255, 250);
+    font-family:sans-serif;
+    color:rgb(32, 46, 23);
+}
+
+header, .maincontent{
+    clear:both;
+}
+
+.mainmenu ul{
+    background:rgb(32, 46, 23);
+    list-style-type:none;
+    padding: 1em;
+    min-height: 3.5em;
+    margin: auto;
+}
+
+.mainmenu li{
+    float:left;
+    margin-right: 2em;
+    margin-bottom: .25em;
+    font-family:sans-serif;
+    text-transform:uppercase;
+}
+
+.mainmenu li a{
+    color:rgb(250, 255, 250);
+}
+
+a{
+    text-decoration:none;
+}
+
+div.maincontent{
+    margin:auto;
+}
+
+img {width: 100%; 
+}
+
+div.image{
+    width:40%;
+    margin:auto;
+}
+
+h1{
+    text-align:center;
+    margin:auto;
+}
+
+h2{
+    text-align:center;
+    margin:auto;
+}
+
+h3{
+    text-align:center;
+    margin:auto;
+}
+
+div.comments{
+    font-family:serif;
+}
