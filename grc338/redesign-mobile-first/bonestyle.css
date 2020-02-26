@@ -2,7 +2,7 @@
 body{
     background:rgb(250, 255, 250);
     font-family:sans-serif;
-    color:rgb(32, 46, 23);
+    color:rgb(42, 89, 40);
 }
 
 header, .maincontent{
@@ -10,7 +10,7 @@ header, .maincontent{
 }
 
 .mainmenu ul{
-    background:rgb(32, 46, 23);
+    background:rgb(42, 89, 40);
     list-style-type:none;
     padding: 1em;
     min-height: 3.5em;
@@ -58,6 +58,12 @@ h2{
 h3{
     text-align:center;
     margin:auto;
+}
+
+.subheading h5{
+    font-size:100%;
+    font-style:italic;
+    margin:auto
 }
 
 div.comments{
