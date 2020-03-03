@@ -1,0 +1,112 @@
+/*CSS DOCUMENT*/
+body{
+    background:rgb(250, 255, 250);
+    font-family:sans-serif;
+    color:rgb(42, 89, 40);
+}
+
+header, .maincontent{
+    clear:both;
+}
+
+.mainmenu ul{
+    background:rgb(42, 89, 40);
+    list-style-type:none;
+    padding: 1em;
+    min-height: 3.5em;
+    margin: auto;
+}
+
+.mainmenu li{
+    float:left;
+    margin-right: 2em;
+    margin-bottom: .25em;
+    font-family:sans-serif;
+    text-transform:uppercase;
+}
+
+.mainmenu li a{
+    color:rgb(250, 255, 250);
+}
+
+a{
+    text-decoration:none;
+}
+
+div.maincontent{
+    margin:auto;
+}
+
+img {width: 100%; 
+}
+
+div.image{
+    width:40%;
+    margin:auto;
+}
+
+h1{
+    text-align:center;
+    margin:auto;
+}
+
+h2{
+    text-align:center;
+    margin:auto;
+}
+
+h3{
+    text-align:center;
+    margin:auto;
+}
+
+h5{
+    font-size:100%;
+    font-style:italic;
+    margin:auto
+}
+
+div.comments{
+    font-family:serif;
+}
+
+footer{
+    float:none;
+    clear:both
+}
+
+@media only screen and (min-width:36em){
+    .mainmenu ul{
+        min-height:2em;
+    }  
+}
+
+@media only screen and (min-width:54em){
+    .mainmenu ul{
+        min-height: 1em;
+    }
+    
+    .artpage h4{
+        text-align:center;
+        margin:auto;
+        padding:1em 0 0 0;
+        font-size:115%
+    }
+    
+    .artpage h5{
+        text-align:center;
+        padding:1.5em;
+    }
+    
+    div.aboutjay{
+        margin:auto;
+        padding:0 1em 0 0;
+        float:left;
+        width:48%
+    }
+    
+    div.aboutann{
+        float:left;
+        width:48%
+    }
+}
