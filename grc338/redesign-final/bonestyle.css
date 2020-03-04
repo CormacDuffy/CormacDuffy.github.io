@@ -1,7 +1,9 @@
 /*CSS DOCUMENT*/
 body{
     background:rgb(250, 255, 250);
-    font-family:sans-serif;
+    font-family: expo-sans-pro,sans-serif;
+    font-weight: 400;
+    font-style: normal;
     color:rgb(42, 89, 40);
 }
 
@@ -13,7 +15,7 @@ header, .maincontent{
     background:rgb(42, 89, 40);
     list-style-type:none;
     padding: 1em;
-    min-height: 3.5em;
+    min-height: 3em;
     margin: auto;
 }
 
@@ -21,7 +23,9 @@ header, .maincontent{
     float:left;
     margin-right: 2em;
     margin-bottom: .25em;
-    font-family:sans-serif;
+    font-family: expo-sans-pro,sans-serif;
+    font-weight: 400;
+    font-style: normal;
     text-transform:uppercase;
 }
 
@@ -43,6 +47,13 @@ img {width: 100%;
 div.image{
     width:40%;
     margin:auto;
+    padding:1em;
+}
+
+div.homeimage{
+    width:60%;
+    margin:auto;
+    padding:1em;
 }
 
 h1{
@@ -70,6 +81,15 @@ div.comments{
     font-family:serif;
 }
 
+div.commentspace{
+    margin:0 0 2em 0
+}
+
+.subheading a{
+    color:rgb(42, 89, 40);
+    text-decoration:none;
+}
+
 footer{
     float:none;
     clear:both
@@ -81,9 +101,23 @@ footer{
     }  
 }
 
+
+@media only screen and (max-width:500px){
+    div.homeimage{
+        width:100%;
+        padding:1em 0 0 0;
+    }
+}
+
 @media only screen and (min-width:54em){
     .mainmenu ul{
         min-height: 1em;
+    }
+    
+    .tagline p{
+        text-align:center;
+        margin:auto;
+        padding:1em;
     }
     
     .artpage h4{
@@ -96,6 +130,11 @@ footer{
     .artpage h5{
         text-align:center;
         padding:1.5em;
+    }
+    
+    div.about{
+        max-width:60em;
+        margin:auto;
     }
     
     div.aboutjay{
